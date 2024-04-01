@@ -1,0 +1,36 @@
+export default {
+  // darkMode: ["class", '[data-theme="dark"]'],
+  content: [
+    "./components/**/*.{vue,js,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./composables/**/*.{js,ts}",
+    "./plugins/**/*.{js,ts}",
+    "./utils/**/*.{js,ts}",
+    "./App.{js,ts,vue}",
+    "./app.{js,ts,vue}",
+    "./Error.{js,ts,vue}",
+    "./error.{js,ts,vue}",
+    "./app.config.{js,ts}",
+  ],
+  theme: {
+    extend: {},
+    colors: {
+      primary: {
+        DEFAULT: "#314D47",
+        50: "#85B1A8",
+        100: "#78A99F",
+        200: "#61988C",
+        300: "#517F75",
+        400: "#41665E",
+        500: "#314D47",
+        600: "#1B2B27",
+        700: "#050808",
+        800: "#000000",
+        900: "#000000",
+        950: "#000000",
+      },
+    },
+  },
+  plugins: [],
+}
